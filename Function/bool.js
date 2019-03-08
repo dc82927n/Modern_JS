@@ -14,7 +14,7 @@ let testBool = function (){
 	}
 
 
-	if (((a === b) || (b === c) || (a == c)) && d){
+	if (((a === b) || (b === c) || (a == c)) && !d){
 		console.log(true)
 	} else {
 		console.log(false)
