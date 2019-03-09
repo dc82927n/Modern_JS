@@ -30,25 +30,26 @@ grade()
 
 
 let gradeCalc = function(score, totalScore){
-	let percent = (score / totalScore) * 100; 
+	let percent = (score / totalScore) * 100; // this never outputed i believe it's 
+												// with when variable are excuted in the function. 
 	let letterGrade = ""; 
 
 
 	if(percent >= 90){
-		return letterGrade = "A" // be mindful of the return statement. it ends the excution when it's 
+		return letterGrade = "A"  // be mindful of the return statement. it ends the excution when it's 
 							// the desire output is reached. so if you put return letterGrade if
 								// the output is reach ti's excuted. 
 	} else if (percent >= 80){
 		return letterGrade = "b"
 	}
-	
-	return percent, letterGrade; 
+	return percent, letterGrade
+
 
 	// another way using the backtick string
 	//return `you got a ${letterGrade}, (${percent}%)!`; 
 }
 
-let result = gradeCalc(85, 100)
+let result = gradeCalc(91, 100)
 console.log(result)
 
 
