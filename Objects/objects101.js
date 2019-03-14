@@ -32,8 +32,9 @@ let me = {
 
 
 console.log(`my name is ${me.name} and age ${me.age} and live at ${me.location}`);
-me.age = me.age + 1
+//let me.age = me.age + 1
+let Add1 = me.age + 1
 
-console.log(`my name is ${me.name} and age ${me.age} and live at ${me.location}`);
+console.log(`my name is ${me.name} and age ${Add1} and live at ${me.location}`);
 
 
