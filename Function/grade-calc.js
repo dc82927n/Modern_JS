@@ -22,8 +22,7 @@ let grade = function(){
 	 } else {
 	 	console.log("C")
 	 }
-}
-
+	}
 
 grade()
 //console.log(total);
