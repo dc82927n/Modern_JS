@@ -2,7 +2,7 @@
 
 
 
-let temp = 55;
+let  temp = 55;
 
 if (temp >= 60 && temp <= 90) {
 	console.log("its is pretty nice");
